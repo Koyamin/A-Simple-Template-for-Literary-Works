@@ -1,0 +1,37 @@
+\usepackage[top=3cm,bottom=3cm,left=2.5cm,right=2.5cm]{geometry} % 页面边框大小
+\usepackage{amsmath,amsthm,amssymb,amsfonts} % 数学公式环境
+\usepackage{indentfirst} % 保证首行缩进
+
+%%% 行距设置 %%%
+\linespread{1.6}
+%%% 设计文章作者样式 %%%
+\newcommand{\writer}[1]{{\hfill{文\hspace{5pt}\vline\hspace{5pt}{#1}\vspace{15pt}}}}
+%%% 设计文中小标题样式 %%%
+\newcommand{\smalltitle}[1]{\vspace{10pt}\centerline{\Large\fangsong #1}\vspace{10pt}}
+
+%%% 页眉页脚设计 %%%
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\pagestyle{fancy}
+% \addtolength{\headwidth}{\marginparsep}
+% \addtolength{\headwidth}{\marginparwidth}
+\fancyhf{}
+\fancyhead[LE,RO]{}
+\fancyhead[LE]{\bfseries{\sffamily\thepage}\hspace{8pt}\vline\hspace{8pt}}
+\fancyhead[RO]{\textbf{\color{gray}\nameofbook}\hspace{8pt}\vline\hspace{8pt}\bfseries{\sffamily\thepage}}
+\renewcommand{\headrulewidth}{0pt} % 页眉修饰线调整
+\fancypagestyle{plain}{ % 重新定义plain样式
+     \fancyhf{}
+     \fancyfoot[LO,RE]{}
+     \fancyfoot[LE,RO]{\bfseries\thepage}
+     \renewcommand{\headrulewidth}{0pt}
+}
+
+%%% 章节标题设计 %%%
+\usepackage{titlesec} % 标题样式设计
+\titleformat{\chapter}[block]
+{\fontsize{24pt}{\baselineskip}\bfseries}
+{}
+{0pt}
+{}
+\titlespacing*{\chapter}{0pt}{5pt}{90pt} 
