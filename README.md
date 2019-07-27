@@ -61,3 +61,7 @@
   ## What's it's shortcoming?
   
   本模板太复杂且较为丑陋，未编写 `.sty` 和 `.cls` 文件来简化、美化模板。未来将考虑编写 `.sty` 和 `.cls` 文件来解决这一问题。
+  
+  ## Software License
+  
+  使用 [LPPL](https://www.latex-project.org/lppl/lppl-1-3c/) 授权。
