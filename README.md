@@ -1,8 +1,6 @@
 # A-Simple-Template-for-Literary-Works
 
-这里是下载地址：[下载地址](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/archive/master.zip)。
-
-预览效果请参见 [example.pdf](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/blob/master/example.pdf)。
+这里是下载地址：[下载地址](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/archive/master.zip)。预览效果请参见 [example.pdf](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/blob/master/example.pdf)。
 
 ## What's this?
 
