@@ -1,23 +1,17 @@
-\documentclass[UTF8,a5paper,twoside,10pt]{ctexrep}
+\documentclass[a5paper]{ltrywork}
 
-\input{./settings/settings.tex}
-
-\def\nameofbook{鲁迅文集} % 此处填写书名（用于页眉的书名标识）
+\def\bookname{鲁迅文集} % 此处填写书名（用于页眉的书名标识）
 
 %%%%%%%%%%%%%%% 正文 %%%%%%%%%%%%%%%
-
 \begin{document}
 
-\pagenumbering{roman}% 页码设置为罗马数字
-
 %%% 目录设计 %%%
-
 \input{./contents/contents.tex}
 
-%%% 正文 %%%
+%%% 正文导入 %%%
 
-\input{./body/example.tex}
-\input{./body/example.tex}
-\input{./body/example.tex}
+\input{./body/1.tex}
+\input{./body/2.tex}
+\input{./body/3.tex}
 
 \end{document}
