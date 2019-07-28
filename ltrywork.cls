@@ -3,7 +3,7 @@
 
 \LoadClass[UTF8,twoside,11pt]{ctexrep}
 
-\RequirePackage[top=3cm,bottom=3cm,left=3cm,right=2cm]{geometry} % 页面边框大小
+\RequirePackage[top=3cm,bottom=3cm,left=3.1cm,right=1.9cm]{geometry} % 页面边框大小
 \RequirePackage{amsmath,amsthm,amssymb,amsfonts} % 数学公式环境
 \RequirePackage{indentfirst} % 保证首行缩进
 \RequirePackage{multicol} % 多栏排版
@@ -29,7 +29,7 @@
 \fancypagestyle{plain}{ % 重新定义plain样式
      \fancyhf{}
      \fancyfoot[LO,RE]{}
-     \fancyfoot[LE,RO]{\bfseries\thepage}
+     \fancyfoot[LE,RO]{\sffamily\bfseries\thepage}
      \renewcommand{\headrulewidth}{0pt}
 }
 
@@ -49,6 +49,13 @@
 \end{minipage}]
 \titlespacing*{\chapter}{0pt}{5pt}{80pt} 
 
+\RequirePackage{titletoc}
+\titlecontents{chapter}[0cm]
+    {\vspace{2pt}}%
+    {\contentslabel{2.5em}}%
+    {}%
+    {\hspace*{1.5em} /\hspace*{0.5em}\contentspage}%
+
 %%% 章节信息 %%%
-\newcommand{\articleinfo}[3][]{\def\subtitlename{#1}\chapter*{#2}\writer{#3}\addcontentsline{toc}{chapter}{#2}}
+\newcommand{\articleinfo}[3][]{\def\subtitlename{#1}\chapter*{#2}\writer{#3}\addcontentsline{toc}{chapter}{\parbox[t]{2cm}{#3} #2}}
 
