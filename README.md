@@ -1,6 +1,8 @@
 # A-Simple-Template-for-Literary-Works
 
-这里是下载地址：[下载地址](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/archive/master.zip)
+这里是下载地址：[下载地址](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/archive/master.zip)。
+
+预览效果请参见 [example.pdf](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/blob/master/example.pdf)。
 
 ## What's this?
 
@@ -18,11 +20,11 @@
 
 * `main.tex`
   
-  此文件是本模板的核心，控制着整个项目的结构。在此文件中，你需要修改的只有文章正文的各篇文章所在的`.tex`文件（在演示中是 `example.tex`，...），它们被建议放置在 `~/body/` 中。当然，你可以随意地修改这些文件的名字和内容并进行删减与增补。语法可见本文件中的示例。
+  此文件是本模板的核心，控制着整个项目的结构。在此文件中，你需要修改的只有文章正文的各篇文章所在的`.tex`文件（在演示中是 `1.tex`，...），它们被建议放置在 `~/body/` 中。当然，你可以随意地修改这些文件的名字和内容并进行删减与增补。语法可见本文件中的示例。
 
 * `~/body/`
 
-  此文件夹中用来存放排版过的文章，详细设置请参照 `~/body/example.tex` 。
+  此文件夹中用来存放排版过的文章，详细设置请参照 `~/body/` 中的 `.tex` 文件。
 
 * `~/contents/contents.tex`
 
@@ -44,7 +46,7 @@
   
     此命令导入的是存储在 `~/body/` 文件夹中的文章，请按照需要补充。注意，导入的文档的顺序决定了输出时的文章顺序。
 
-* `~/body/1.tex` 中可配置的内容
+*  `~/body/` 中的 `.tex` 文件中可配置的内容
 
   1. 文件名（必需项）
   
@@ -58,8 +60,12 @@
     
 ## What's it's shortcoming?
   
-  本模板可实现的功能不足。若有意见或建议，请在 [Issue](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/issues) 中提出。
+  本模板可实现的功能不足，有些地方仍不够美观。若有意见或建议，敬请在 [Issue](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/issues) 中提出，本人将尽最大努力改进。
   
 ## Acknowledgements
   
 * 感谢 [CTeX](http://www.ctex.org/HomePage) 提供了 LaTeX 的中文支持。
+
+## Software License
+
+* 使用 [LPPL](https://github.com/Koyamin/A-Simple-Template-for-Literary-Works/blob/master/LICENSE) 授权。
